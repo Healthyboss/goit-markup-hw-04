@@ -348,7 +348,10 @@ body {
 .rectangle {
   background-color: var(--background-color-second);
   background-size: 264px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-media {
+  background-color: var(--normal-color);
 }
