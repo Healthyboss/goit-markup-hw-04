@@ -343,3 +343,8 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+.rectangle {
+  background-color: var(--background-color-second;);
+  background-size: 264px 112px;
+}
