@@ -474,6 +474,7 @@ body {
 }
 
 .appshadow {
+  text-decoration: none;
   display: block;
 }
 
