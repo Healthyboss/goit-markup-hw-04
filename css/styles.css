@@ -416,6 +416,7 @@ body {
   justify-content: center;
   color: var(--logo-color);
   border: 1px solid var(--logo-color);
+  border-radius: 4px;
 }
 
 .logocs:hover,
@@ -432,17 +433,17 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--background-color);
+  margin-bottom: 16px;
 }
 
 .footer-social {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 .socials-footer {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
-  padding: 16px 0;
 }
 .social-icons-footer {
   width: 40px;
@@ -464,4 +465,10 @@ body {
 }
 .logofill {
   fill: currentColor;
+}
+.footersm {
+  margin-right: 120px;
+}
+.footer-icons {
+  fill: var(--background-color-second);
 }
