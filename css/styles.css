@@ -107,6 +107,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 .header-one {
   color: var(--background-color);
@@ -444,10 +445,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
-}
-.social-icons-footer {
-  width: 40px;
-  height: 40px;
 }
 .social-link-footer {
   width: 100%;
